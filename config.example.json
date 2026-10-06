@@ -1,0 +1,17 @@
+{
+  "_comment": "Copy this to config.json and fill in spreadsheet_id. donut_id is resolved and cached automatically on first run, so new items only need name/search/worksheet.",
+
+  "spreadsheet_id": "",
+  "service_account_file": "service_account.json",
+  "interval_seconds": 600,
+  "pages_per_item": 5,
+  "max_staleness_min": 90,
+
+  "items": [
+    { "name": "gilded_blackstone", "search": "Gilded Blackstone", "worksheet": "Gilded Blackstone" },
+    { "name": "ancient_debris",    "search": "Ancient Debris",    "worksheet": "Ancient Debris" },
+    { "name": "netherite_ingot",   "search": "Netherite Ingot",   "worksheet": "Netherite Ingot" },
+    { "name": "netherite_block",   "search": "Netherite Block",   "worksheet": "Netherite Block" },
+    { "name": "sea_pickle",        "search": "Sea Pickle",        "worksheet": "Sea Pickle", "pages": 12 }
+  ]
+}
