@@ -1,0 +1,16 @@
+# Secrets -- never commit these
+service_account.json
+api_key.txt
+
+# Your own config (contains your spreadsheet id)
+config.json
+
+# Local data and logs
+readings_backup*.csv
+upstream_status.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
